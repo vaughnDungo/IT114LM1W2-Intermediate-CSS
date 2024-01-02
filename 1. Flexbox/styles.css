@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.box.tall{
+    height: 100px;
+}
+
+.box.wide{
+    width: 100px;
+}
+
+
+/* TODO 1:  */

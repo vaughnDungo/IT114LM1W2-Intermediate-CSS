@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+
+/* Todo 1: Define and apply CSS styles such that the background of .change-styles changes to
+a different color when the screen is smaller than 500px*/
+.change-styles{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+/* Todo 2: Define and apply CSS styles such that the layout of .change-layout becomes a column
+when the screen is smaller than 500px */
+.change-layout{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Todo 3: Define the common breakpoints for devices - phone, tablet, small screens (laptop), and large screens (desktops).
+For each break point, the background of .common-breakpoints must change
+*/
+.common-breakpoints{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+}
