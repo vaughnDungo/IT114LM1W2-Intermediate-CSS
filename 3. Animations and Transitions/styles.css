@@ -16,7 +16,7 @@
     /* Apply animation here */
 }
 
-/* Todo 3.1: Create an animation that moves the box up and down.
+/* Todo 3.1: Create an animation that moves the box left and right.
 Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
 Set more key frames between 0% and 100%. */
 .todo-1-container .box{
@@ -28,7 +28,7 @@ Set more key frames between 0% and 100%. */
     /* Apply animation here */
 }
 
-/* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button*/
-.todo-3-container .button{
+/* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button */
+/* bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line*/
     /* Apply transition here */
 }
