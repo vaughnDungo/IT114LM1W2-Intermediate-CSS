@@ -15,13 +15,91 @@
     font-size: 24px;
 }
 
-.box.tall{
+.box.tall {
     height: 100px;
 }
 
-.box.wide{
+.box.wide {
     width: 100px;
 }
 
 
-/* TODO 1:  */
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+
+/* TODO 1 */
+.todo-1-container {
+    /* TODO 1.1.1 Set the display of this div to flex*/
+    /* TODO 1.1.2 Set the flex direction to row. Then set it to column. What's the difference?*/
+    /* Answer: */
+    /* TODO 1.1.3 Set the flex direction to row. Then enable flex wrap. What does wrap do? */
+    /* Answer: */
+    /* Todo 1.1.4 Set the gap of the container to 10px. Now change it to 20px. What does gap do? */
+    /* Answer: */
+
+}
+
+/* TODO 2 */
+.todo-2-container{
+    /* TODO 1.2.1 Set the display to flex and flex direction to row */
+    /* TODO 1.2.2 Justify the content to start, then end, then center. Make sure to see how the position of the divs change*/
+    /* TODO 1.2.3 Align the items start, then end, then center. Make sure to see how the position of the divs change*/
+    /* TODO 1.2.4 Set the flex direction to column and play around with justify-content and align-items */
+}
+
+/* TODO 3 */
+.todo-3-container{
+    /* Todo 1.3.1 Set the display to flex and align items center */
+}
+
+/* Select the red box */
+.todo-3-container __{
+    /* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
+    /* Answer: */
+}
+
+/* Select the green box */
+.todo-3-container __{
+    /* Todo 1.3.3 Set flex grow to 1 */
+}
+
+/* Select the blue box */
+.todo-3-container __{
+    /* Todo 1.3.4 Set flex grow to 2. Try out the other values. What happens? */
+    /* Answer: */
+}
+
+/* TODO 4 */
+.todo-4-container{
+    /* Set the display to flex */
+}
+
+/* Select the red box */
+.todo-4-container ___{
+    /* Set margin left to auto.  */
+}
+
+/* Select the green box */
+.todo-4-container __{
+    /* Set margin right to auto */
+}
+
+/* Select the blue box */
+.todo-4-container ___{
+    /* Set the order to  1. Try chaging the order of the other divs. What does order do?*/
+    /* Answer: */
+}
+
+
+
+
