@@ -12,11 +12,23 @@
 }
 
 /* Todo 3.0: Create an animation that increases and decreases the scale of the box  */
+.todo-0-container .box{
+    /* Apply animation here */
+}
 
 /* Todo 3.1: Create an animation that moves the box up and down.
 Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
 Set more key frames between 0% and 100%. */
+.todo-1-container .box{
+    /* Apply animation here */
+}
 
 /* Todo 3.2: Try the different timing funcitons such as linear, ease-in, ease-in-out, cubic-bezier, and steps*/
+.todo-2-container .box{
+    /* Apply animation here */
+}
 
 /* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button*/
+.todo-3-container .button{
+    /* Apply transition here */
+}
