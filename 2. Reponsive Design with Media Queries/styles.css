@@ -45,12 +45,41 @@ when the screen's width is smaller than 500px */
 }
 
 /* Todo 2.3: Define the common breakpoints for devices - phone, tablet, small screens (laptop), and large screens (desktops).
-For each break point, the background of .common-breakpoints must change
+For each breakpoint, the background of .common-breakpoints must change
 */
 
-/*For Phones (Redmi 12) */
-.common-breakpoints {
-  width: 76.28%;
-  height: px;
-  background-color: red;
+/* For Phones */
+@media only screen and (max-width: 480px) {
+  .common-breakpoints {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .common-breakpoints {
+    width: 80%;
+    height: 400px;
+    background-color: green;
+  }
+}
+
+/* For Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .common-breakpoints {
+    width: 60%;
+    height: 500px;
+    background-color: blue;
+  }
+}
+
+/* For Desktops */
+@media only screen and (min-width: 1025px) {
+  .common-breakpoints {
+    width: 50%;
+    height: 600px;
+    background-color: orange;
+  }
 }
