@@ -1,35 +1,89 @@
-
 .box {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 
 /* Todo 3.0: Create an animation that increases and decreases the scale of the box  */
-.todo-0-container .box{
-    /* Apply animation here */
+.todo-0-container .box {
+  animation: scaleAnimation 2s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
 
 /* Todo 3.1: Create an animation that moves the box left and right.
-Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
-Set more key frames between 0% and 100%. */
-.todo-1-container .box{
-    /* Apply animation here */
+  Start with using "from" and "to". Now use "0%" and "100%" as your key frames.
+  Set more key frames between 0% and 100%. */
+.todo-1-container .box {
+  animation: moveAnimation 2s infinite alternate;
 }
 
-/* Todo 3.2: Try the different timing funcitons such as linear, ease-in, ease-in-out, cubic-bezier, and steps*/
-.todo-2-container .box{
-    /* Apply animation here */
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Todo 3.2: Try the different timing functions such as linear, ease-in, ease-in-out, cubic-bezier, and steps*/
+.todo-2-container .box {
+  animation: timingFunctionAnimation 2s infinite alternate;
+}
+
+@keyframes timingFunctionAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+/* Apply different timing functions */
+.todo-2-container .box:nth-child(1) {
+  animation-timing-function: linear;
+}
+
+.todo-2-container .box:nth-child(2) {
+  animation-timing-function: ease-in;
+}
+
+.todo-2-container .box:nth-child(3) {
+  animation-timing-function: ease-in-out;
+}
+
+.todo-2-container .box:nth-child(4) {
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.todo-2-container .box:nth-child(5) {
+  animation-timing-function: steps(4, end);
 }
 
 /* Todo 3.3: Create a transition that will raise the button up and will make it cast a shadow when you hover over the button */
 /* bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line*/
-.todo-3-container button{
-    /* Apply transition here */
+.todo-3-container button {
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s linear;
+}
+
+.todo-3-container button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
